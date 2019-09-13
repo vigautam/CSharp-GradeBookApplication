@@ -55,6 +55,11 @@ namespace GradeBook.GradeBooks
             student.AddGrade(score);
         }
 
+        internal void CalculateStudentStatistics()
+        {
+            throw new NotImplementedException();
+        }
+
         public void RemoveGrade(string name, double score)
         {
             if (string.IsNullOrEmpty(name))
